@@ -77,7 +77,7 @@ Given that the train dataset is imbalanced with only 5% of cases with positive W
 - Additional methods such as under-sampling or oversampling should be done to balance this dataset.
 - SMOTE is an oversampling technique where the synthetic samples are generated for the minority class. This algorithm helps to overcome the overfitting problem posed by random oversampling. It focuses on the feature space to generate new instances with the help of interpolation between the positive instances that lie together.
 
-<img src='./image/roc-auc.jpg' content-align="center" width="80%">
+![ROC-AUC Curve](https://github.com/KY21/GA-Project-4/blob/main/assets/roc-auc.png)
 
 The area under the ROC curve (AUC) can be interpreted as the probability that the classification model correctly ranks a random positive example higher than a random negative example. So an AUC which is close to 1 is quite often considered to be a confirmation of the model being good.
 
